@@ -1,0 +1,117 @@
+//@mark functions
+@function sprurl($a) {
+ @return url('../img/svg/sprite.svg#' + $a);
+}
+@function lhcalc($a, $b) {
+ @return calc(ceil(calc($a / $b * 100)) / 100);
+}
+@function asprat($a, $b) {
+ @return calc(ceil(calc($a / $b * 10000)) / 10000);
+}
+@function heightrat($a, $b, $c) {
+ @return calc(round(calc($a / ($b / $c)))) + px;
+}
+
+//@mark var scss
+// $scrvw: ;
+
+//@mark var css
+:root {
+ // font-family
+ // --font-: '', sans-serif;
+
+ // text colors
+ --t-white: #fff;
+ --t-black: #000;
+ --t-dark: #050c33;
+ --t-orange: #f14d34;
+
+ // background colors
+ --b-white: #fff;
+ --b-black: #000;
+ --b-dark: #040613;
+
+ // font-size
+ --sz-6: 6px;
+ --sz-7: 7px;
+ --sz-8: 8px;
+ --sz-10: 10px;
+ --sz-12: 12px;
+ --sz-14: 14px;
+ --sz-16: 16px;
+ --sz-18: 18px;
+ --sz-22: 22px;
+ --sz-24: 24px;
+ --sz-28: 28px;
+ --sz-32: 32px;
+ --sz-42: 42px;
+ --sz-48: 48px;
+ --sz-52: 52px;
+ --sz-72: 72px;
+}
+
+//@mark start
+// @import './fonts';
+@import './normalize';
+@import './custom-reset';
+
+//@mark scroll
+::-webkit-scrollbar-button {
+ width: 6px;
+ height: 0px;
+}
+::-webkit-scrollbar-track {
+ background-color: var(--b-white);
+ box-shadow: 0px 0px 3px var(--b-white) inset;
+}
+::-webkit-scrollbar-thumb {
+ border-radius: 2px;
+ background-color: var(--b-black);
+ background-position: center;
+ background-repeat: no-repeat;
+}
+::-webkit-resizer {
+ width: 7px;
+ height: 0px;
+}
+::-webkit-scrollbar {
+ width: 7px;
+}
+
+//@mark html
+// html {
+//  font-size: 16px !important;
+// }
+
+//@mark page
+body {
+ & {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: var(--sz-16);
+  line-height: 1.2;
+  color: var(--t-dark);
+  background-color: var(--b-white);
+  &.j-lock {
+   overflow: hidden;
+  }
+ }
+}
+
+//@mark wrapper
+.wrapper {
+ position: relative;
+ display: grid;
+ min-height: 100vh;
+ grid-template-columns: minmax(300px, 1fr);
+ grid-template-rows: auto 1fr auto;
+ overflow: hidden;
+}
+
+//@mark container
+.container {
+ width: 100%;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 10px;
+}
