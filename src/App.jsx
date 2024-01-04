@@ -166,6 +166,81 @@ function App() {
       </div>
      </div>
     </section>
+    <section className="main__support support">
+     <div className="container">
+      <div className="support__container">
+       <h2 className="support__title"></h2>
+       <ul className="support__list">
+        <li className="support__item m-1">
+         <p className="support__item-num">01.</p>
+         <h3 className="support__item-title">Постановка задачи по Email</h3>
+         <p className="support__item-text">
+          Удобная и привычная модель постановки задач, при которой задачи
+          фиксируются и никогда не теряются.
+         </p>
+        </li>
+        <li className="support__item m-2">
+         <p className="support__item-num">02.</p>
+         <h3 className="support__item-title">
+          Система Helpdesk – отчетность, прозрачность
+         </h3>
+         <p className="support__item-text">
+          Возможность посмотреть все заявки в работе и отработанные часы в
+          личном кабинете через браузер.
+         </p>
+        </li>
+        <li className="support__item m-3">
+         <p className="support__item-num">03.</p>
+         <h3 className="support__item-title">
+          Расширенная техническая поддержка
+         </h3>
+         <p className="support__item-text">
+          Возможность организации расширенной техподдержки с 6:00 до 22:00 без
+          выходных.
+         </p>
+        </li>
+        <li className="support__item m-4">
+         <p className="support__item-num">04.</p>
+         <h3 className="support__item-title">Персональный менеджер проекта</h3>
+         <p className="support__item-text">
+          Ваш менеджер проекта всегда в курсе текущего состояния проекта и в
+          любой момент готов ответить на любые вопросы.
+         </p>
+        </li>
+        <li className="support__item m-5">
+         <p className="support__item-num">05.</p>
+         <h3 className="support__item-title">Удобные способы оплаты</h3>
+         <p className="support__item-text">
+          Безналичный расчет по договору или электронные деньги: WebMoney,
+          Яндекс.Деньги, Paypal.
+         </p>
+        </li>
+        <li className="support__item m-6">
+         <p className="support__item-num">06.</p>
+         <h3 className="support__item-title">Работаем с SLA и NDA</h3>
+         <p className="support__item-text">
+          Работа в рамках соглашений о конфиденциальности и об уровне качетсва
+          работ.
+         </p>
+        </li>
+        <li className="support__item m-7">
+         <p className="support__item-num">07.</p>
+         <h3 className="support__item-title">Штатные специалисты</h3>
+         <p className="support__item-text">
+          Надежные штатные специалисты, никаких фрилансеров.
+         </p>
+        </li>
+        <li className="support__item m-8">
+         <p className="support__item-num">08.</p>
+         <h3 className="support__item-title">Удобные каналы связи</h3>
+         <p className="support__item-text">
+          Консультации по телефону, скайпу, в месенджерах.
+         </p>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
    </main>
    <Footer />
   </div>
