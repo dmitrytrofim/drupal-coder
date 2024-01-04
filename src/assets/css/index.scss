@@ -85,16 +85,14 @@
 
 //@mark page
 body.page {
- & {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: var(--sz-16);
-  line-height: 1.2;
-  color: var(--t-dark);
-  background-color: var(--b-white);
-  &.j-lock {
-   overflow: hidden;
-  }
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+ font-size: var(--sz-16);
+ line-height: 1.2;
+ color: var(--t-dark);
+ background-color: var(--b-white);
+ &.j-lock {
+  overflow: hidden;
  }
 }
 

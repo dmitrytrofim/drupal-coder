@@ -47,6 +47,125 @@ function App() {
       </div>
      </div>
     </section>
+    <section className="main__services services">
+     <div className="container">
+      <div className="services__container">
+       <h2 className="services__title">
+        13 лет совершенствуем компетенции в Drupal поддержке!
+       </h2>
+       <p className="services__subtitle">
+        Разрабатываем и оптимизируем модули, расширяем функциональность сайтов,
+        обновляем дизайн
+       </p>
+       <ul className="services__list">
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-1.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Добавление информации на сайт, создание новых разделов
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-2.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Разработка и оптимизация модулей сайта
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-3.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Интеграция с CRM, 1C, платежными системами, любыми веб-сервисами
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-4.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Любые доработки функционала и дизайна
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-5.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Аудит и мониторинг безопасности Drupal сайтов
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-6.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Миграция, импорт контента и апгрейд Drupal
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-7.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Оптимизация и ускорение Drupal-сайтов
+         </p>
+        </li>
+        <li className="services__item">
+         <div className="services__item-visual i-wrap">
+          <img
+           className="services__item-img i-full"
+           src="/assets/img/svg/services-8.svg"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+         <p className="services__item-text">
+          Веб-маркетинг, консультации и работы по SEO
+         </p>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </section>
    </main>
    <Footer />
   </div>

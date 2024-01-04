@@ -5,11 +5,11 @@ function Header() {
   <header className="page__header header">
    <div className="container">
     <div className="header__container">
-     <a href="#" className="header__logo">
+     <a href="#" className="header__logo i-wrap">
       <img
        src="./assets/img/svg/logo.svg"
        alt=""
-       className="header__logo-img"
+       className="header__logo-img i-full"
       />
      </a>
      <nav className="header__nav">
