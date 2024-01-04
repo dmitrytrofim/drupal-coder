@@ -241,6 +241,102 @@ function App() {
       </div>
      </div>
     </section>
+    <section className="main__exp exp">
+     <div className="container">
+      <div className="exp__container">
+       <div className="exp__info">
+        <h2 className="exp__title">Экспертиза в Drupal, опыт 14 лет!</h2>
+        <div className="exp__row">
+         <p className="exp__item">
+          Только системный подход – контроль версий, резервирование и
+          тестирование!
+         </p>
+         <p className="exp__item">
+          Только Drupal сайты, не берем на поддержку сайты на других CMS!
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <img
+      className="exp__decor"
+      src="/assets/img/svg/laptop.svg"
+      alt=""
+      loading="lazy"
+     />
+    </section>
+    <section className="main__tariffs tariffs">
+     <div className="container">
+      <div className="tariffs__container">
+       <h2 className="tariffs__title"></h2>
+       <div className="tariffs__box">
+        <div className="tariffs__card">
+         <div className="tariffs__card-head">
+          <p className="tariffs__card-name"></p>
+          <p className="tariffs__card-cost">
+           2000 <i>₽</i>
+          </p>
+          <p className="tariffs__card-descr">в час</p>
+         </div>
+         <hr className="tariffs__card-line" />
+         <ul className="tariffs__card-list">
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+         </ul>
+         <a href="#" className="tariffs__card-btn">
+          Оставить заявку!
+         </a>
+        </div>
+        <div className="tariffs__card">
+         <div className="tariffs__card-head">
+          <p className="tariffs__card-name"></p>
+          <p className="tariffs__card-cost">
+           2000 <i>₽</i>
+          </p>
+          <p className="tariffs__card-descr">в час</p>
+         </div>
+         <hr className="tariffs__card-line" />
+         <ul className="tariffs__card-list">
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+         </ul>
+         <a href="#" className="tariffs__card-btn">
+          Оставить заявку!
+         </a>
+        </div>
+        <div className="tariffs__card">
+         <div className="tariffs__card-head">
+          <p className="tariffs__card-name"></p>
+          <p className="tariffs__card-cost">
+           2000 <i>₽</i>
+          </p>
+          <p className="tariffs__card-descr">в час</p>
+         </div>
+         <hr className="tariffs__card-line" />
+         <ul className="tariffs__card-list">
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+          <li className="tariffs__card-item"></li>
+         </ul>
+         <a href="#" className="tariffs__card-btn">
+          Оставить заявку!
+         </a>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
    </main>
    <Footer />
   </div>
