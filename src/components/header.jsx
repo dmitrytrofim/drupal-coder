@@ -1,3 +1,5 @@
+import LangSwitcher from './lang-switcher';
+
 function Header() {
  return (
   <header className="page__header header">
@@ -43,6 +45,7 @@ function Header() {
       <a href="tel:+78002222673" className="header__phone">
        8 800 222-26-73
       </a>
+      <LangSwitcher />
      </div>
     </div>
    </div>
