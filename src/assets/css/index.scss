@@ -84,7 +84,7 @@
 // }
 
 //@mark page
-body {
+body.page {
  & {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -115,3 +115,7 @@ body {
  margin: 0 auto;
  padding: 0 10px;
 }
+
+//@mark // components
+
+//@mark // home

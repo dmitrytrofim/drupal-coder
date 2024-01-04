@@ -271,7 +271,7 @@ address {
   width: 7px;
 }
 
-body {
+body.page {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: var(--sz-16);
@@ -279,7 +279,7 @@ body {
   color: var(--t-dark);
   background-color: var(--b-white);
 }
-body.j-lock {
+body.page.j-lock {
   overflow: hidden;
 }
 
