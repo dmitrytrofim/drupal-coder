@@ -116,7 +116,8 @@ body.page {
  padding: 0 10px;
 }
 
-//@mark imp components
-@import './components';
-
-//@mark // home
+//@mark imp sections
+@import './_components';
+@import './_header';
+@import './_main1';
+@import './_footer';
