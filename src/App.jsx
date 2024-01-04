@@ -1,5 +1,6 @@
 import Header from './components/header';
 import Footer from './components/footer';
+import Reviews from './components/reviews';
 
 function App() {
  return (
@@ -549,6 +550,14 @@ function App() {
          <p className="team__item-post">UX/UI дизайн</p>
         </li>
        </ul>
+      </div>
+     </div>
+    </section>
+    <section className="main__reviews reviews">
+     <div className="container">
+      <div className="reviews__container">
+       <h2 className="reviews__title">Отзывы</h2>
+       <Reviews />
       </div>
      </div>
     </section>
