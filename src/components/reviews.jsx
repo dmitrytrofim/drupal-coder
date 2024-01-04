@@ -1,31 +1,31 @@
 import { useReducer } from 'react';
 
-const initialReview = { count: 1 };
-const reviews = {
- 1: {
+const initialReview = { count: 0 };
+const reviews = [
+ {
   img: '/assets/img/winamp.png',
-  text: 'Команда Drupal Coder вызвала только положительные впечатления!1',
+  text: 'Команда 1 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
- 2: {
+ {
   img: '/assets/img/winamp.png',
-  text: 'Команда Drupal Coder вызвала только положительные впечатления!2',
+  text: 'Команда 2 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
- 3: {
+ {
   img: '/assets/img/winamp.png',
-  text: 'Команда Drupal Coder вызвала только положительные впечатления!3',
+  text: 'Команда 3 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
-};
-const revLen = Object.keys(reviews).length;
+];
+const revLen = reviews.length - 1;
 
 const reducer = (state, action) => {
- switch (action.type) {
+ switch (action) {
   case 'next':
-   return { count: state.count < revLen ? state.count + 1 : 1 };
+   return { count: state.count < revLen ? state.count + 1 : 0 };
   case 'prev':
-   return { count: state.count > 1 ? state.count - 1 : revLen };
+   return { count: state.count > 0 ? state.count - 1 : revLen };
  }
 };
 
@@ -48,18 +48,14 @@ function Reviews() {
    </div>
    <div className="reviews__nav">
     <button
-     onClick={() => {
-      dispatch({ type: 'prev' });
-     }}
+     onClick={() => dispatch('prev')}
      className="reviews__nav-btn m-prev"
     >
      назад
     </button>
-    <p className="reviews__nav-counter">{state.count}</p>
+    <p className="reviews__nav-counter">{state.count + 1}</p>
     <button
-     onClick={() => {
-      dispatch({ type: 'next' });
-     }}
+     onClick={() => dispatch('next')}
      className="reviews__nav-btn m-next"
     >
      вперед
