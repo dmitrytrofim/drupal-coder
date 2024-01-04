@@ -52,8 +52,8 @@
 
 //@mark start
 // @import './fonts';
-@import './normalize';
-@import './custom-reset';
+@import './different/normalize';
+@import './different/custom-reset';
 
 //@mark scroll
 ::-webkit-scrollbar-button {
@@ -117,5 +117,6 @@ body.page {
 }
 
 //@mark // components
+@import './components';
 
 //@mark // home
