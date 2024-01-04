@@ -561,6 +561,29 @@ function App() {
       </div>
      </div>
     </section>
+    <section className="main__partners partners">
+     <div className="container">
+      <div className="partners__container">
+       <h2 className="partners__title">С нами работают</h2>
+       <p className="partners__subtitle">
+        Десятки компаний доверяют нам самое ценное, что у них есть в интернете –
+        свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.
+       </p>
+       <div className="partners__box">
+        <div className="partners__row">
+         <div className="partners__card">
+          <img
+           className="partners__card-img"
+           src="/assets/img/partner-1.webp"
+           alt=""
+           loading="lazy"
+          />
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
    </main>
    <Footer />
   </div>
