@@ -328,3 +328,64 @@ body.page.j-lock {
 .sect-gap {
   margin-bottom: 100px;
 }
+
+.lang {
+  position: relative;
+}
+.lang__btn.m-main {
+  position: relative;
+}
+.lang__btn.m-main::after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 6px);
+  right: -14px;
+  width: 12px;
+  height: 12px;
+  background: url("/assets/img/svg/sprite.svg#arrow-down") center/cover no-repeat;
+}
+.lang__btn.m-toggle {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+}
+
+.page__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  color: var(--t-white);
+  padding: 34px 0 30px;
+}
+.header__logo {
+  width: 137px;
+  height: 20px;
+  margin-right: 60px;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header__group {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header__phone {
+  margin-right: 38px;
+}
+.greet {
+  background: url("/assets/img/svg/mask.svg") left center/contain no-repeat, url("/assets/img/greet-bg.webp") center/cover no-repeat, var(--b-dark);
+}
+.greet__container {
+  min-height: 100vh;
+  color: var(--t-white);
+  padding: 190px 0 150px;
+}

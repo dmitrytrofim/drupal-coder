@@ -1,25 +1,43 @@
 .page__header {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
 }
 .header {
  & {
  }
  &__container {
+  display: flex;
+  align-items: center;
+  color: var(--t-white);
+  padding: 34px 0 30px;
  }
  &__logo {
+  width: 137px;
+  height: 20px;
+  margin-right: 60px;
  }
  &__logo-img {
  }
  &__nav {
  }
  &__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
  }
  &__nav-item {
  }
  &__nav-link {
  }
  &__group {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
  }
  &__phone {
+  margin-right: 38px;
  }
  &__lang {
  }

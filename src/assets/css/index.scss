@@ -1,15 +1,9 @@
 //@mark functions
-@function sprurl($a) {
- @return url('../img/svg/sprite.svg#' + $a);
-}
 @function lhcalc($a, $b) {
  @return calc(ceil(calc($a / $b * 100)) / 100);
 }
 @function asprat($a, $b) {
  @return calc(ceil(calc($a / $b * 10000)) / 10000);
-}
-@function heightrat($a, $b, $c) {
- @return calc(round(calc($a / ($b / $c)))) + px;
 }
 
 //@mark var scss

@@ -1,0 +1,219 @@
+.page {
+ &__main {
+ }
+}
+//@mark main
+.main {
+ &__greet {
+ }
+ &__services {
+ }
+ &__support {
+ }
+ &__exp {
+ }
+ &__tariffs {
+ }
+ &__cases {
+ }
+ &__team {
+ }
+ &__reviews {
+ }
+ &__partners {
+ }
+}
+//@mark greet
+.greet {
+ & {
+  background: url('/assets/img/svg/mask.svg') left center / contain no-repeat,
+   url('/assets/img/greet-bg.webp') center / cover no-repeat, var(--b-dark);
+ }
+ &__container {
+  min-height: 100vh;
+  color: var(--t-white);
+  padding: 190px 0 150px;
+ }
+ &__info {
+ }
+ &__info-title {
+ }
+ &__info-subtitle {
+ }
+ &__info-btn {
+ }
+ &__list {
+ }
+ &__list-item {
+ }
+ &__list-title {
+ }
+ &__list-descr {
+ }
+}
+.container {
+}
+.m-cup {
+}
+.services {
+ &__container {
+ }
+ &__title {
+ }
+ &__subtitle {
+ }
+ &__list {
+ }
+ &__item {
+ }
+ &__item-visual {
+ }
+ &__item-img {
+ }
+ &__item-text {
+ }
+}
+.i-wrap {
+}
+.i-full {
+}
+.support {
+ &__container {
+ }
+ &__title {
+ }
+ &__list {
+ }
+ &__item {
+ }
+ &__item-num {
+ }
+ &__item-title {
+ }
+ &__item-text {
+ }
+}
+.m-1 {
+}
+.m-2 {
+}
+.m-3 {
+}
+.m-4 {
+}
+.m-5 {
+}
+.m-6 {
+}
+.m-7 {
+}
+.m-8 {
+}
+.exp {
+ &__container {
+ }
+ &__info {
+ }
+ &__title {
+ }
+ &__row {
+ }
+ &__item {
+ }
+ &__decor {
+ }
+}
+.tariffs {
+ &__container {
+ }
+ &__title {
+ }
+ &__box {
+ }
+ &__card {
+ }
+ &__card-head {
+ }
+ &__card-name {
+ }
+ &__card-cost {
+ }
+ &__card-descr {
+ }
+ &__card-line {
+ }
+ &__card-list {
+ }
+ &__card-item {
+ }
+ &__card-btn {
+ }
+ &__descr {
+ }
+ &__link {
+ }
+}
+.cases {
+ &__container {
+ }
+ &__title {
+ }
+ &__box {
+ }
+ &__card {
+ }
+ &__card-visual {
+ }
+ &__card-info {
+ }
+ &__card-title {
+ }
+ &__card-date {
+ }
+ &__card-text {
+ }
+ &__more {
+ }
+}
+.m-sep {
+}
+.team {
+ &__container {
+ }
+ &__title {
+ }
+ &__list {
+ }
+ &__item {
+ }
+ &__item-visual {
+ }
+ &__item-img {
+ }
+ &__item-name {
+ }
+ &__item-post {
+ }
+}
+.reviews {
+ &__container {
+ }
+ &__title {
+ }
+}
+.partners {
+ &__container {
+ }
+ &__title {
+ }
+ &__subtitle {
+ }
+ &__box {
+ }
+ &__row {
+ }
+ &__card {
+ }
+ &__card-img {
+ }
+}
