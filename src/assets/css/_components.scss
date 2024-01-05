@@ -80,6 +80,10 @@
   color: var(--t-white);
   background-color: var(--b-orange);
  }
+ &.m-more {
+  color: var(--t-dark);
+  border: 2px solid rgba(5, 12, 51, 0.2);
+ }
 }
 //@mark title
 .title {

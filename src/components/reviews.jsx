@@ -4,58 +4,18 @@ const initialReview = { count: 0 };
 const reviews = [
  {
   img: '/assets/img/winamp.webp',
-  text: 'Команда 1 Drupal Coder вызвала только положительные впечатления!',
+  text: 'Все отлично',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
   img: '/assets/img/winamp.webp',
-  text: 'Команда 2 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
+  text: 'Команда Drupal Coder вызвала только положительные впечатления!',
+  descr: 'Полина, менеджер проекта Winamp Russian Community',
  },
  {
   img: '/assets/img/winamp.webp',
-  text: 'Команда 3 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 4 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 5 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 6 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 7 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 8 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 9 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 10 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
- },
- {
-  img: '/assets/img/winamp.webp',
-  text: 'Команда 11 Drupal Coder вызвала только положительные впечатления!',
-  descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
+  text: 'Команда 3 рада плодотворному сотрудничеству!',
+  descr: 'Вадим, менеджер проекта Winamp Russian Community',
  },
 ];
 const revLen = reviews.length - 1;
@@ -88,18 +48,14 @@ function Reviews() {
     <button
      onClick={() => dispatch('prev')}
      className="reviews__nav-btn m-prev"
-    >
-     назад
-    </button>
+    ></button>
     <p className="reviews__nav-counter">
-     {String(state.count + 1).padStart(2, '0')} / <span>{reviews.length}</span>
+     {String(state.count + 1).padStart(2, '0')} <span>/ {reviews.length}</span>
     </p>
     <button
      onClick={() => dispatch('next')}
      className="reviews__nav-btn m-next"
-    >
-     вперед
-    </button>
+    ></button>
    </div>
   </div>
  );

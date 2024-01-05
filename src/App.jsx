@@ -413,7 +413,7 @@ function App() {
     <section className="main__cases cases">
      <div className="container">
       <div className="cases__container">
-       <h2 className="cases__title">Последние кейсы</h2>
+       <h2 className="cases__title title">Последние кейсы</h2>
        <div className="cases__box">
         <a href="#" className="cases__card m-sep">
          <img
@@ -433,7 +433,7 @@ function App() {
           </p>
          </div>
         </a>
-        <a href="#" className="cases__card m-sep">
+        <a href="#" className="cases__card m-full m-1">
          <img
           className="cases__card-visual"
           src="/assets/img/case-7.webp"
@@ -442,11 +442,12 @@ function App() {
          />
          <div className="cases__card-info">
           <p className="cases__card-title">
-           Настройка выгрузки YML для Яндекс.Маркета
+           Настройка выгрузки YML для
+           <br /> Яндекс.Маркета
           </p>
          </div>
         </a>
-        <a href="#" className="cases__card m-sep">
+        <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
           src="/assets/img/case-4.webp"
@@ -460,7 +461,7 @@ function App() {
           <p className="cases__card-date">22.04.2019</p>
          </div>
         </a>
-        <a href="#" className="cases__card m-sep">
+        <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
           src="/assets/img/case-3.webp"
@@ -492,7 +493,7 @@ function App() {
           </p>
          </div>
         </a>
-        <a href="#" className="cases__card m-sep">
+        <a href="#" className="cases__card m-full m-2">
          <img
           className="cases__card-visual"
           src="/assets/img/case-6.webp"
@@ -501,11 +502,12 @@ function App() {
          />
          <div className="cases__card-info">
           <p className="cases__card-title">
-           Настройка выгрузки YML для Яндекс.Маркета
+           Настройка выгрузки YML для
+           <br /> Яндекс.Маркета
           </p>
          </div>
         </a>
-        <a href="#" className="cases__card m-sep">
+        <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
           src="/assets/img/case-2.webp"
@@ -520,14 +522,16 @@ function App() {
          </div>
         </a>
        </div>
-       <a href="#" className="cases__more"></a>
+       <a href="#" className="cases__more btn m-more">
+        Показать ещё
+       </a>
       </div>
      </div>
     </section>
     <section className="main__team team">
      <div className="container">
       <div className="team__container">
-       <h2 className="team__title"></h2>
+       <h2 className="team__title title">Команда</h2>
        <ul className="team__list">
         <li className="team__item">
          <div className="team__item-visual i-wrap">
@@ -547,7 +551,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-2.webp"
+           src="/assets/img/team-3.webp"
            alt=""
            loading="lazy"
           />
@@ -559,7 +563,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-3.webp"
+           src="/assets/img/team-2.webp"
            alt=""
            loading="lazy"
           />
@@ -573,7 +577,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-1.webp"
+           src="/assets/img/team-2.webp"
            alt=""
            loading="lazy"
           />
@@ -585,7 +589,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-2.webp"
+           src="/assets/img/team-1.webp"
            alt=""
            loading="lazy"
           />
@@ -614,7 +618,7 @@ function App() {
     <section className="main__reviews reviews">
      <div className="container">
       <div className="reviews__container">
-       <h2 className="reviews__title">Отзывы</h2>
+       <h2 className="reviews__title title">Отзывы</h2>
        <Reviews />
       </div>
      </div>
