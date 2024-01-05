@@ -44,10 +44,13 @@
     background: url('/assets/img/svg/sprite.svg#arrow-down') center / cover
      no-repeat;
    }
+   &.j-show::after {
+    transform: rotate(180deg);
+   }
   }
   &.m-toggle {
    position: absolute;
-   bottom: -30px;
+   bottom: -24px;
    left: 0;
    opacity: 0;
    visibility: hidden;
