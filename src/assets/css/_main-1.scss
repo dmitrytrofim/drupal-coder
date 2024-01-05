@@ -269,8 +269,15 @@
  &__card-head {
  }
  &__card-name {
+  font-size: var(--sz-22);
+  color: var(--t-orange);
+  font-weight: 700;
  }
  &__card-cost {
+  font-size: var(--sz-72);
+  color: var(--t-dark);
+  font-weight: 700;
+  text-transform: uppercase;
  }
  &__card-descr {
  }

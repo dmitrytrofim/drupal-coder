@@ -641,3 +641,14 @@ body.page.j-lock {
   padding-top: 66px;
   z-index: 10;
 }
+.tariffs__card-name {
+  font-size: var(--sz-22);
+  color: var(--t-orange);
+  font-weight: 700;
+}
+.tariffs__card-cost {
+  font-size: var(--sz-72);
+  color: var(--t-dark);
+  font-weight: 700;
+  text-transform: uppercase;
+}

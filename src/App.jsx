@@ -333,7 +333,7 @@ function App() {
          <div className="tariffs__card-head">
           <p className="tariffs__card-name">Стартовый</p>
           <p className="tariffs__card-cost">
-           2000 <i>₽</i>
+           2000 <i>&#8381;</i>
           </p>
           <p className="tariffs__card-descr">в час</p>
          </div>
@@ -355,7 +355,7 @@ function App() {
          <div className="tariffs__card-head">
           <p className="tariffs__card-name">Бизнес</p>
           <p className="tariffs__card-cost">
-           2000 <i>₽</i>
+           2000 <i>&#8381;</i>
           </p>
           <p className="tariffs__card-descr">в час</p>
          </div>
@@ -379,7 +379,7 @@ function App() {
          <div className="tariffs__card-head">
           <p className="tariffs__card-name">VIP</p>
           <p className="tariffs__card-cost">
-           1800 <i>₽</i>
+           1800 <i>&#8381;</i>
           </p>
           <p className="tariffs__card-descr">в час</p>
          </div>
