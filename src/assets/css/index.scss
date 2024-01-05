@@ -16,8 +16,10 @@
 
  // text colors
  --t-white: #fff;
+ --t-white-7: rgba(255, 255, 255, 0.7);
  --t-black: #000;
  --t-dark: #050c33;
+ --t-dark-7: rgba(5, 12, 51, 0.7);
  --t-orange: #f14d34;
 
  // background colors
@@ -83,8 +85,8 @@ body.page {
  font-family: 'Montserrat', sans-serif;
  font-weight: 500;
  font-size: var(--sz-16);
- line-height: 1.2;
- color: var(--t-dark);
+ line-height: normal;
+ color: var(--t-dark-7);
  background-color: var(--b-white);
  &.j-lock {
   overflow: hidden;

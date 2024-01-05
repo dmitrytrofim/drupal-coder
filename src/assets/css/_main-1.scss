@@ -5,6 +5,7 @@
 //@mark main
 .main {
  &__greet {
+  margin-bottom: 100px;
  }
  &__services {
  }
@@ -50,7 +51,7 @@
  &__info-subtitle {
   font-size: var(--sz-18);
   line-height: 1.55;
-  opacity: 0.8;
+  color: var(--t-white-7);
   margin-bottom: 55px;
  }
  &__info-btn {
@@ -79,8 +80,8 @@
     &::after {
      position: absolute;
      content: '';
-     bottom: 10px;
-     left: 50px;
+     bottom: 7px;
+     left: 54px;
      width: 60px;
      height: 60px;
      background: url('/assets/img/cup.png') center / contain no-repeat;
@@ -90,18 +91,21 @@
  }
  &__list-descr {
   font-size: var(--sz-12);
+  color: var(--t-white-7);
  }
 }
-.container {
-}
-.m-cup {
-}
+//@mark services
 .services {
  &__container {
  }
  &__title {
+  width: 100%;
+  max-width: 580px;
+  margin-bottom: 20px;
  }
  &__subtitle {
+  width: 100%;
+  max-width: 493px;
  }
  &__list {
  }

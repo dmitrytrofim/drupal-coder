@@ -58,7 +58,7 @@ function App() {
     <section className="main__services services">
      <div className="container">
       <div className="services__container">
-       <h2 className="services__title">
+       <h2 className="services__title title">
         13 лет совершенствуем компетенции в Drupal поддержке!
        </h2>
        <p className="services__subtitle">

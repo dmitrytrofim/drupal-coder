@@ -1,7 +1,9 @@
 :root {
   --t-white: #fff;
+  --t-white-7: rgba(255, 255, 255, 0.7);
   --t-black: #000;
   --t-dark: #050c33;
+  --t-dark-7: rgba(5, 12, 51, 0.7);
   --t-orange: #f14d34;
   --b-white: #fff;
   --b-black: #000;
@@ -276,8 +278,8 @@ body.page {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: var(--sz-16);
-  line-height: 1.2;
-  color: var(--t-dark);
+  line-height: normal;
+  color: var(--t-dark-7);
   background-color: var(--b-white);
 }
 body.page.j-lock {
@@ -374,6 +376,12 @@ body.page.j-lock {
   border: 2px solid var(--b-orange);
 }
 
+.title {
+  font-size: var(--sz-42);
+  font-weight: 700;
+  color: var(--t-dark);
+}
+
 .page__header {
   position: absolute;
   top: 0;
@@ -410,6 +418,9 @@ body.page.j-lock {
 .header__phone {
   margin-right: 38px;
 }
+.main__greet {
+  margin-bottom: 100px;
+}
 .greet {
   background: url("/assets/img/svg/mask.svg") left center/contain no-repeat, url("/assets/img/greet-bg.webp") center/cover no-repeat, var(--b-dark);
 }
@@ -434,7 +445,7 @@ body.page.j-lock {
 .greet__info-subtitle {
   font-size: var(--sz-18);
   line-height: 1.55;
-  opacity: 0.8;
+  color: var(--t-white-7);
   margin-bottom: 55px;
 }
 .greet__list {
@@ -464,12 +475,23 @@ body.page.j-lock {
 .greet__list-title.m-cup span::after {
   position: absolute;
   content: "";
-  bottom: 10px;
-  left: 50px;
+  bottom: 7px;
+  left: 54px;
   width: 60px;
   height: 60px;
   background: url("/assets/img/cup.png") center/contain no-repeat;
 }
 .greet__list-descr {
   font-size: var(--sz-12);
+  color: var(--t-white-7);
+}
+
+.services__title {
+  width: 100%;
+  max-width: 580px;
+  margin-bottom: 20px;
+}
+.services__subtitle {
+  width: 100%;
+  max-width: 493px;
 }
