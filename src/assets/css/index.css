@@ -332,6 +332,10 @@ body.page.j-lock {
 .lang {
   position: relative;
 }
+.lang__btn {
+  font-size: var(--sz-14);
+  font-weight: 700;
+}
 .lang__btn.m-main {
   position: relative;
 }
@@ -373,9 +377,14 @@ body.page.j-lock {
   align-items: center;
   gap: 30px;
 }
+.header__nav-link {
+  font-size: var(--sz-12);
+  text-transform: uppercase;
+}
 .header__group {
   display: flex;
   align-items: center;
+  font-size: var(--sz-18);
   margin-left: auto;
 }
 .header__phone {

@@ -29,6 +29,8 @@
  }
  &__btn {
   & {
+   font-size: var(--sz-14);
+   font-weight: 700;
   }
   &.m-main {
    position: relative;

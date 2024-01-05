@@ -30,10 +30,13 @@
  &__nav-item {
  }
  &__nav-link {
+  font-size: var(--sz-12);
+  text-transform: uppercase;
  }
  &__group {
   display: flex;
   align-items: center;
+  font-size: var(--sz-18);
   margin-left: auto;
  }
  &__phone {
