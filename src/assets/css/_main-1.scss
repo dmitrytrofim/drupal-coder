@@ -13,6 +13,7 @@
  &__support {
  }
  &__exp {
+  margin-top: -180px;
  }
  &__tariffs {
  }
@@ -133,36 +134,60 @@
  &__container {
  }
  &__title {
+  margin-bottom: 56px;
  }
  &__list {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  &::after {
+   position: absolute;
+   content: '';
+   inset: 20px;
+   background-color: rgba(0, 0, 0, 0.05);
+   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+   z-index: -1;
+  }
  }
  &__item {
+  position: relative;
+  background-color: var(--b-white);
+  overflow: hidden;
+  padding: 27px 35px 42px 25px;
  }
  &__item-num {
+  color: var(--t-dark);
+  opacity: 0.5;
+  margin-bottom: 20px;
  }
  &__item-title {
+  font-size: var(--sz-18);
+  color: var(--t-dark);
+  margin-bottom: 12px;
  }
  &__item-text {
+  position: relative;
+  z-index: 5;
+ }
+ &__item-decor {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
  }
 }
-.m-1 {
-}
-.m-2 {
-}
-.m-3 {
-}
-.m-4 {
-}
-.m-5 {
-}
-.m-6 {
-}
-.m-7 {
-}
-.m-8 {
-}
+//@mark exp
 .exp {
+ & {
+  background: url('/assets/img/svg/mask.svg') right center / contain no-repeat,
+   var(--b-dark);
+ }
  &__container {
+  color: var(--t-white);
+  padding: 405px 0 170px;
  }
  &__info {
  }
@@ -173,6 +198,7 @@
  &__item {
  }
  &__decor {
+  display: none;
  }
 }
 .tariffs {

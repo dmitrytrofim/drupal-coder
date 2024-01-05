@@ -99,7 +99,7 @@ body.page {
  display: grid;
  min-height: 100vh;
  grid-template-columns: minmax(300px, 1fr);
- grid-template-rows: auto 1fr auto;
+ grid-template-rows: 1fr auto;
  overflow: hidden;
 }
 

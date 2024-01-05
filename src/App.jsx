@@ -191,7 +191,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-1.png"
           alt=""
           loading="lazy"
          />
@@ -207,7 +207,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-2.png"
           alt=""
           loading="lazy"
          />
@@ -223,7 +223,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-3.png"
           alt=""
           loading="lazy"
          />
@@ -237,7 +237,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-4.png"
           alt=""
           loading="lazy"
          />
@@ -251,7 +251,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-5.png"
           alt=""
           loading="lazy"
          />
@@ -265,7 +265,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-6.png"
           alt=""
           loading="lazy"
          />
@@ -278,7 +278,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-7.png"
           alt=""
           loading="lazy"
          />
@@ -291,7 +291,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/svg/support-1.svg"
+          src="/assets/img/support-8.png"
           alt=""
           loading="lazy"
          />
