@@ -70,7 +70,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-1.svg"
+           src="/assets/img/svg/services-7.svg"
            alt=""
            loading="lazy"
           />
@@ -83,7 +83,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-2.svg"
+           src="/assets/img/svg/services-6.svg"
            alt=""
            loading="lazy"
           />
@@ -96,7 +96,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-3.svg"
+           src="/assets/img/svg/services-5.svg"
            alt=""
            loading="lazy"
           />
@@ -109,7 +109,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-4.svg"
+           src="/assets/img/svg/services-2.svg"
            alt=""
            loading="lazy"
           />
@@ -122,7 +122,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-5.svg"
+           src="/assets/img/svg/services-1.svg"
            alt=""
            loading="lazy"
           />
@@ -135,7 +135,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-6.svg"
+           src="/assets/img/svg/services-4.svg"
            alt=""
            loading="lazy"
           />
@@ -148,7 +148,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-7.svg"
+           src="/assets/img/svg/services-8.svg"
            alt=""
            loading="lazy"
           />
@@ -161,7 +161,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-8.svg"
+           src="/assets/img/svg/services-3.svg"
            alt=""
            loading="lazy"
           />
@@ -177,17 +177,26 @@ function App() {
     <section className="main__support support">
      <div className="container">
       <div className="support__container">
-       <h2 className="support__title"></h2>
+       <h2 className="support__title title">
+        Поддержка
+        <br /> от Drupal-coder
+       </h2>
        <ul className="support__list">
-        <li className="support__item m-1">
+        <li className="support__item">
          <p className="support__item-num">01.</p>
          <h3 className="support__item-title">Постановка задачи по Email</h3>
          <p className="support__item-text">
           Удобная и привычная модель постановки задач, при которой задачи
           фиксируются и никогда не теряются.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-2">
+        <li className="support__item">
          <p className="support__item-num">02.</p>
          <h3 className="support__item-title">
           Система Helpdesk – отчетность, прозрачность
@@ -196,8 +205,14 @@ function App() {
           Возможность посмотреть все заявки в работе и отработанные часы в
           личном кабинете через браузер.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-3">
+        <li className="support__item">
          <p className="support__item-num">03.</p>
          <h3 className="support__item-title">
           Расширенная техническая поддержка
@@ -206,44 +221,80 @@ function App() {
           Возможность организации расширенной техподдержки с 6:00 до 22:00 без
           выходных.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-4">
+        <li className="support__item">
          <p className="support__item-num">04.</p>
          <h3 className="support__item-title">Персональный менеджер проекта</h3>
          <p className="support__item-text">
           Ваш менеджер проекта всегда в курсе текущего состояния проекта и в
           любой момент готов ответить на любые вопросы.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-5">
+        <li className="support__item">
          <p className="support__item-num">05.</p>
          <h3 className="support__item-title">Удобные способы оплаты</h3>
          <p className="support__item-text">
           Безналичный расчет по договору или электронные деньги: WebMoney,
           Яндекс.Деньги, Paypal.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-6">
+        <li className="support__item">
          <p className="support__item-num">06.</p>
          <h3 className="support__item-title">Работаем с SLA и NDA</h3>
          <p className="support__item-text">
           Работа в рамках соглашений о конфиденциальности и об уровне качетсва
           работ.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-7">
+        <li className="support__item">
          <p className="support__item-num">07.</p>
          <h3 className="support__item-title">Штатные специалисты</h3>
          <p className="support__item-text">
           Надежные штатные специалисты, никаких фрилансеров.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
-        <li className="support__item m-8">
+        <li className="support__item">
          <p className="support__item-num">08.</p>
          <h3 className="support__item-title">Удобные каналы связи</h3>
          <p className="support__item-text">
           Консультации по телефону, скайпу, в месенджерах.
          </p>
+         <img
+          className="support__item-decor"
+          src="/assets/img/svg/support-1.svg"
+          alt=""
+          loading="lazy"
+         />
         </li>
        </ul>
       </div>

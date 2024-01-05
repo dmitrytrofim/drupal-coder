@@ -8,6 +8,7 @@
   margin-bottom: 100px;
  }
  &__services {
+  margin-bottom: 160px;
  }
  &__support {
  }
@@ -101,27 +102,33 @@
  &__title {
   width: 100%;
   max-width: 580px;
+  text-align: left;
   margin-bottom: 20px;
  }
  &__subtitle {
   width: 100%;
   max-width: 493px;
+  margin-bottom: 60px;
  }
  &__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 130px;
  }
  &__item {
  }
  &__item-visual {
+  width: 100px;
+  aspect-ratio: 1;
+  transform: translateX(-40px);
  }
  &__item-img {
+  object-fit: contain;
  }
  &__item-text {
  }
 }
-.i-wrap {
-}
-.i-full {
-}
+//@mark support
 .support {
  &__container {
  }

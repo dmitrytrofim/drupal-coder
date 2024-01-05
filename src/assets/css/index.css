@@ -380,6 +380,7 @@ body.page.j-lock {
   font-size: var(--sz-42);
   font-weight: 700;
   color: var(--t-dark);
+  text-align: center;
 }
 
 .page__header {
@@ -420,6 +421,9 @@ body.page.j-lock {
 }
 .main__greet {
   margin-bottom: 100px;
+}
+.main__services {
+  margin-bottom: 160px;
 }
 .greet {
   background: url("/assets/img/svg/mask.svg") left center/contain no-repeat, url("/assets/img/greet-bg.webp") center/cover no-repeat, var(--b-dark);
@@ -489,9 +493,25 @@ body.page.j-lock {
 .services__title {
   width: 100%;
   max-width: 580px;
+  text-align: left;
   margin-bottom: 20px;
 }
 .services__subtitle {
   width: 100%;
   max-width: 493px;
+  margin-bottom: 60px;
+}
+.services__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px 130px;
+}
+.services__item-visual {
+  width: 100px;
+  aspect-ratio: 1;
+  transform: translateX(-40px);
+}
+.services__item-img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
