@@ -22,7 +22,9 @@ function App() {
        </div>
        <ul className="greet__list">
         <li className="greet__list-item">
-         <p className="greet__list-title m-cup">#1</p>
+         <p className="greet__list-title m-cup">
+          &nbsp; <span>#1</span>
+         </p>
          <p className="greet__list-descr">
           Drupal-разработчик в России по версии Рейтинга Рунета
          </p>

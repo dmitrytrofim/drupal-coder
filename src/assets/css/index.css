@@ -6,6 +6,7 @@
   --b-white: #fff;
   --b-black: #000;
   --b-dark: #040613;
+  --b-orange: #f14d34;
   --sz-6: 6px;
   --sz-7: 7px;
   --sz-8: 8px;
@@ -370,7 +371,7 @@ body.page.j-lock {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: 2px solid var(--t-orange);
+  border: 2px solid var(--b-orange);
 }
 
 .page__header {
@@ -415,6 +416,8 @@ body.page.j-lock {
 .greet__container {
   min-height: 100vh;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--t-white);
   padding: 190px 0 150px;
 }
@@ -426,9 +429,47 @@ body.page.j-lock {
   font-size: var(--sz-52);
   font-weight: 700;
   line-height: 1.15;
+  margin-bottom: 15px;
 }
 .greet__info-subtitle {
   font-size: var(--sz-18);
   line-height: 1.55;
   opacity: 0.8;
+  margin-bottom: 55px;
+}
+.greet__list {
+  display: grid;
+  grid-template-columns: repeat(3, 180px);
+  gap: 80px 28px;
+}
+.greet__list-item {
+  border-left: 2px solid var(--b-orange);
+  padding-left: 10px;
+}
+.greet__list-title {
+  font-size: var(--sz-24);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.greet__list-title.m-cup {
+  position: relative;
+}
+.greet__list-title.m-cup span {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -5px;
+  font-size: var(--sz-48);
+}
+.greet__list-title.m-cup span::after {
+  position: absolute;
+  content: "";
+  bottom: 10px;
+  left: 50px;
+  width: 60px;
+  height: 60px;
+  background: url("/assets/img/cup.png") center/contain no-repeat;
+}
+.greet__list-descr {
+  font-size: var(--sz-12);
 }
