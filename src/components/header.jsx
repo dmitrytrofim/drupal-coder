@@ -1,4 +1,4 @@
-import LangSwitcher from './lang-switcher';
+import LangSwitcher from './langSwitcher';
 
 function Header() {
  return (
