@@ -14,7 +14,6 @@
  }
  &__exp {
   margin-top: -180px;
-  margin-bottom: 160px;
  }
  &__tariffs {
  }
@@ -231,13 +230,41 @@
 }
 //@mark tariffs
 .tariffs {
+ & {
+  background: url('/assets/img/tariffs.webp') top right / contain no-repeat;
+ }
  &__container {
+  padding-top: 160px;
  }
  &__title {
+  margin-bottom: 60px;
  }
  &__box {
+  display: grid;
+  grid-template-columns: 0.95fr 1.1fr 0.95fr;
+  align-items: center;
  }
  &__card {
+  min-height: 620px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 80px 60px 50px;
+  &:first-child {
+   border-radius: 5px 0 0 5px;
+   border-right: none;
+  }
+  &:last-child {
+   border-radius: 0 5px 5px 0;
+   border-left: none;
+  }
+  &.m-center {
+   position: relative;
+   min-height: 665px;
+   box-shadow: 0px 4px 60px 0px rgba(161, 161, 161, 0.25);
+   padding-top: 66px;
+   z-index: 10;
+  }
  }
  &__card-head {
  }

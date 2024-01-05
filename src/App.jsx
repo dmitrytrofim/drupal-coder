@@ -351,7 +351,7 @@ function App() {
           Оставить заявку!
          </a>
         </div>
-        <div className="tariffs__card">
+        <div className="tariffs__card m-center">
          <div className="tariffs__card-head">
           <p className="tariffs__card-name">Бизнес</p>
           <p className="tariffs__card-cost">
