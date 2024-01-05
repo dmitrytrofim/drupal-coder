@@ -304,7 +304,7 @@ function App() {
      <div className="container">
       <div className="exp__container">
        <div className="exp__info">
-        <h2 className="exp__title">Экспертиза в Drupal, опыт 14 лет!</h2>
+        <h2 className="exp__title title">Экспертиза в Drupal, опыт 14 лет!</h2>
         <div className="exp__row">
          <p className="exp__item">
           Только системный подход – контроль версий, резервирование и
@@ -327,7 +327,7 @@ function App() {
     <section className="main__tariffs tariffs">
      <div className="container">
       <div className="tariffs__container">
-       <h2 className="tariffs__title">Тарифы</h2>
+       <h2 className="tariffs__title title">Тарифы</h2>
        <div className="tariffs__box">
         <div className="tariffs__card">
          <div className="tariffs__card-head">
