@@ -352,6 +352,12 @@ body.page.j-lock {
   position: absolute;
   bottom: -30px;
   left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+.lang__btn.m-toggle.j-show {
+  opacity: 1;
+  visibility: visible;
 }
 
 .page__header {

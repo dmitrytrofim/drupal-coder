@@ -3,57 +3,57 @@ import { useReducer } from 'react';
 const initialReview = { count: 0 };
 const reviews = [
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 1 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 2 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 3 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 4 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 5 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 6 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 7 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 8 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 9 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 10 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.png',
+  img: '/assets/img/winamp.webp',
   text: 'Команда 11 Drupal Coder вызвала только положительные впечатления!',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },

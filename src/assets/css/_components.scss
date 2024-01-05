@@ -49,6 +49,12 @@
    position: absolute;
    bottom: -30px;
    left: 0;
+   opacity: 0;
+   visibility: hidden;
+   &.j-show {
+    opacity: 1;
+    visibility: visible;
+   }
   }
  }
 }
