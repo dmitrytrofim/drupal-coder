@@ -347,7 +347,7 @@ function App() {
            Неиспользованные оплаченные часы переносятся на следующий месяц
           </li>
          </ul>
-         <a href="#" className="tariffs__card-btn">
+         <a href="#" className="tariffs__card-btn btn m-trf">
           Оставить заявку!
          </a>
         </div>
@@ -360,7 +360,7 @@ function App() {
           <p className="tariffs__card-descr">в час</p>
          </div>
          <hr className="tariffs__card-line" />
-         <ul className="tariffs__card-list">
+         <ul className="tariffs__card-list m-center">
           <li className="tariffs__card-item">Предоплата от 10 часов</li>
           <li className="tariffs__card-item">Консультации и работы по SEO</li>
           <li className="tariffs__card-item">Услуги дизайнера</li>
@@ -371,7 +371,7 @@ function App() {
            Неиспользованные часы не переносятся
           </li>
          </ul>
-         <a href="#" className="tariffs__card-btn">
+         <a href="#" className="tariffs__card-btn btn m-fill">
           Оставить заявку!
          </a>
         </div>
@@ -395,7 +395,7 @@ function App() {
            Неиспользованные часы не переносятся
           </li>
          </ul>
-         <a href="#" className="tariffs__card-btn">
+         <a href="#" className="tariffs__card-btn btn m-trf">
           Оставить заявку!
          </a>
         </div>

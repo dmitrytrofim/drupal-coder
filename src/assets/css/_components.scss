@@ -68,8 +68,18 @@
  display: inline-flex;
  justify-content: center;
  align-items: center;
+ font-size: var(--sz-12);
+ text-transform: uppercase;
  border-radius: 5px;
  border: 2px solid var(--b-orange);
+ &.m-trf {
+  border: 1px solid rgba(241, 77, 52, 0.4);
+  color: var(--t-orange);
+ }
+ &.m-fill {
+  color: var(--t-white);
+  background-color: var(--b-orange);
+ }
 }
 //@mark title
 .title {

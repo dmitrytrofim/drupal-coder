@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --t-white: #fff;
   --t-white-7: rgba(255, 255, 255, 0.7);
@@ -372,8 +373,18 @@ body.page.j-lock {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  font-size: var(--sz-12);
+  text-transform: uppercase;
   border-radius: 5px;
   border: 2px solid var(--b-orange);
+}
+.btn.m-trf {
+  border: 1px solid rgba(241, 77, 52, 0.4);
+  color: var(--t-orange);
+}
+.btn.m-fill {
+  color: var(--t-white);
+  background-color: var(--b-orange);
 }
 
 .title {
@@ -621,10 +632,12 @@ body.page.j-lock {
 }
 .tariffs__card {
   min-height: 620px;
+  display: flex;
+  flex-direction: column;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background: #fff;
-  padding: 80px 60px 50px;
+  padding: 60px 60px 50px;
 }
 .tariffs__card:first-child {
   border-radius: 5px 0 0 5px;
@@ -638,8 +651,11 @@ body.page.j-lock {
   position: relative;
   min-height: 665px;
   box-shadow: 0px 4px 60px 0px rgba(161, 161, 161, 0.25);
-  padding-top: 66px;
+  padding-top: 50px;
   z-index: 10;
+}
+.tariffs__card-head {
+  margin-bottom: 20px;
 }
 .tariffs__card-name {
   font-size: var(--sz-22);
@@ -647,8 +663,49 @@ body.page.j-lock {
   font-weight: 700;
 }
 .tariffs__card-cost {
+  position: relative;
+  display: inline-block;
   font-size: var(--sz-72);
   color: var(--t-dark);
   font-weight: 700;
   text-transform: uppercase;
+  margin: -10px 0;
+}
+.tariffs__card-cost i {
+  position: absolute;
+  top: 12px;
+  right: -30px;
+  font-size: var(--sz-28);
+  font-weight: 500;
+  font-style: normal;
+}
+.tariffs__card-descr {
+  color: var(--t-dark);
+}
+.tariffs__card-line {
+  height: 1px;
+  width: 100%;
+  background-color: var(--b-black);
+  opacity: 0.2;
+  margin-bottom: 40px;
+}
+.tariffs__card-list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: var(--sz-14);
+}
+.tariffs__card-list.m-center {
+  font-size: var(--sz-16);
+}
+.tariffs__card-item {
+  list-style-position: outside;
+}
+.tariffs__card-item::marker {
+  content: "✓  ";
+  color: #f69c8f;
+  font-size: var(--sz-16);
 }
