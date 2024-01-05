@@ -31,14 +31,23 @@
  }
  &__container {
   min-height: 100vh;
+  display: flex;
   color: var(--t-white);
   padding: 190px 0 150px;
  }
  &__info {
+  width: 100%;
+  max-width: 500px;
  }
  &__info-title {
+  font-size: var(--sz-52);
+  font-weight: 700;
+  line-height: 1.15;
  }
  &__info-subtitle {
+  font-size: var(--sz-18);
+  line-height: 1.55;
+  opacity: 0.8;
  }
  &__info-btn {
  }

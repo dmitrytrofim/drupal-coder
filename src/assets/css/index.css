@@ -363,6 +363,16 @@ body.page.j-lock {
   visibility: visible;
 }
 
+.btn {
+  height: 60px;
+  min-width: 220px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 2px solid var(--t-orange);
+}
+
 .page__header {
   position: absolute;
   top: 0;
@@ -404,6 +414,21 @@ body.page.j-lock {
 }
 .greet__container {
   min-height: 100vh;
+  display: flex;
   color: var(--t-white);
   padding: 190px 0 150px;
+}
+.greet__info {
+  width: 100%;
+  max-width: 500px;
+}
+.greet__info-title {
+  font-size: var(--sz-52);
+  font-weight: 700;
+  line-height: 1.15;
+}
+.greet__info-subtitle {
+  font-size: var(--sz-18);
+  line-height: 1.55;
+  opacity: 0.8;
 }

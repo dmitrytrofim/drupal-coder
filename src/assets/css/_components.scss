@@ -61,3 +61,13 @@
   }
  }
 }
+//@mark btn
+.btn {
+ height: 60px;
+ min-width: 220px;
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 5px;
+ border: 2px solid var(--t-orange);
+}

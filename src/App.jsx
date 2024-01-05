@@ -11,9 +11,14 @@ function App() {
      <div className="container">
       <div className="greet__container">
        <div className="greet__info">
-        <h1 className="greet__info-title"></h1>
-        <p className="greet__info-subtitle"></p>
-        <a href="#" className="greet__info-btn"></a>
+        <h1 className="greet__info-title">Поддержка сайтов на Drupal</h1>
+        <p className="greet__info-subtitle">
+         Сопровождение и поддержка сайтов
+         <br /> на CMS Drupal любых версий и запущенности
+        </p>
+        <a href="#" className="greet__info-btn btn">
+         Тарифы
+        </a>
        </div>
        <ul className="greet__list">
         <li className="greet__list-item">
