@@ -587,9 +587,24 @@
  &__box {
  }
  &__row {
+  display: flex;
+  gap: 20px;
  }
  &__card {
+  flex-shrink: 0;
+  width: 290px;
+  height: 154px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+  background: var(--White, #fff);
  }
  &__card-img {
+  width: 60%;
+  height: 55%;
+  object-fit: contain;
+  object-position: center;
  }
 }

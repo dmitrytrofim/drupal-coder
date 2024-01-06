@@ -632,10 +632,11 @@ function App() {
         Десятки компаний доверяют нам самое ценное, что у них есть в интернете –
         свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.
        </p>
-       <div className="partners__box">
-        <Partners />
-       </div>
       </div>
+     </div>
+     <div className="partners__box">
+      <Partners />
+      <Partners />
      </div>
     </section>
    </main>
