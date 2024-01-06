@@ -61,7 +61,7 @@ function App() {
     <section id="test" className="main__services services m-sect">
      <div className="container">
       <div className="services__container">
-       <Element name="test"></Element>
+       <Element name="services"></Element>
        <h2 className="services__title title">
         13 лет совершенствуем компетенции в Drupal поддержке!
        </h2>
@@ -331,6 +331,7 @@ function App() {
     <section className="main__tariffs tariffs m-sect">
      <div className="container">
       <div className="tariffs__container">
+       <Element name="tariffs"></Element>
        <h2 className="tariffs__title title">Тарифы</h2>
        <div className="tariffs__box">
         <div className="tariffs__card">
@@ -417,6 +418,7 @@ function App() {
     <section className="main__cases cases m-sect">
      <div className="container">
       <div className="cases__container">
+       <Element name="cases"></Element>
        <h2 className="cases__title title">Последние кейсы</h2>
        <div className="cases__box">
         <a href="#" className="cases__card m-sep">
@@ -622,6 +624,7 @@ function App() {
     <section className="main__reviews reviews m-sect">
      <div className="container">
       <div className="reviews__container">
+       <Element name="reviews"></Element>
        <h2 className="reviews__title title">Отзывы</h2>
        <Reviews />
       </div>

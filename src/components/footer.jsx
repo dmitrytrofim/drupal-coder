@@ -1,8 +1,11 @@
+import { Element } from 'react-scroll';
+
 function Footer() {
  return (
   <footer className="page__footer footer">
    <div className="container">
     <div className="footer__container container">
+     <Element name="contacts"></Element>
      <div className="footer__row">
       <div className="footer__info">
        <h2 className="footer__info-title title">
