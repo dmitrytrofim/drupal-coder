@@ -45,6 +45,17 @@
  --sz-48: 48px;
  --sz-52: 52px;
  --sz-72: 72px;
+
+ @media screen and (max-width: 768px) {
+  --sz-22: 18px;
+  --sz-24: 18px;
+  --sz-28: 18px;
+  --sz-32: 24px;
+  --sz-42: 32px;
+  --sz-48: 32px;
+  --sz-52: 32px;
+  --sz-72: 40px;
+ }
 }
 
 //@mark imp start

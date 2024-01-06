@@ -34,6 +34,9 @@
  & {
   background: url('/assets/img/svg/mask.svg') left center / contain no-repeat,
    url('/assets/img/greet-bg.webp') center / cover no-repeat, var(--b-dark);
+  @media screen and (max-width: 768px) {
+   background-size: cover;
+  }
  }
  &__container {
   min-height: 100vh;
