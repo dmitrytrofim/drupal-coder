@@ -2,6 +2,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import Reviews from './components/reviews';
 import Partners from './components/partners';
+import Marquee from 'react-fast-marquee';
 
 function App() {
  return (
@@ -635,8 +636,12 @@ function App() {
       </div>
      </div>
      <div className="partners__box">
-      <Partners />
-      <Partners />
+      <Marquee direction="left">
+       <Partners />
+      </Marquee>
+      <Marquee direction="right">
+       <Partners />
+      </Marquee>
      </div>
     </section>
    </main>

@@ -1,0 +1,53 @@
+.page {
+ &__footer {
+ }
+}
+.footer {
+ & {
+  background: linear-gradient(
+    261deg,
+    rgba(255, 255, 255, 0.28) -114.85%,
+    rgba(255, 255, 255, 0) 69.04%
+   ),
+   #040613;
+ }
+ &__container {
+  color: var(--t-white);
+ }
+ &__row {
+ }
+ &__info {
+ }
+ &__info-title {
+ }
+ &__info-subtitle {
+ }
+ &__info-address {
+ }
+ &__info-phone {
+ }
+ &__info-mail {
+ }
+ &__form {
+ }
+ &__form-group {
+ }
+ &__form-inp {
+ }
+ &__form-check {
+ }
+ &__form-check-inp {
+ }
+ &__form-check-text {
+ }
+ &__form-submit {
+ }
+ &__descr {
+ }
+ &__descr-text {
+ }
+}
+.container {
+}
+.m-area {
+}
