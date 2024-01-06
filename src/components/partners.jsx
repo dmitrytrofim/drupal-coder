@@ -9,7 +9,6 @@ function Partners() {
      className="partners__card-img"
      src="/assets/img/partner-1.webp"
      alt=""
-     loading="lazy"
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
@@ -17,7 +16,6 @@ function Partners() {
      className="partners__card-img"
      src="/assets/img/partner-2.webp"
      alt=""
-     loading="lazy"
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
@@ -25,7 +23,6 @@ function Partners() {
      className="partners__card-img"
      src="/assets/img/partner-3.webp"
      alt=""
-     loading="lazy"
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
@@ -33,7 +30,6 @@ function Partners() {
      className="partners__card-img"
      src="/assets/img/partner-4.webp"
      alt=""
-     loading="lazy"
     />
    </div>
   );

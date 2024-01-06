@@ -13,6 +13,15 @@
     rgba(255, 255, 255, 0) 69.04%
    ),
    #040613;
+  @media screen and (max-width: 768px) {
+   background: url('/assets/img/svg/d-footer.svg') top -20px center / 300px no-repeat,
+    linear-gradient(
+     261deg,
+     rgba(255, 255, 255, 0.28) -114.85%,
+     rgba(255, 255, 255, 0) 69.04%
+    ),
+    #040613;
+  }
  }
  &__container {
   color: var(--t-white);
@@ -22,24 +31,42 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 70px;
+  @media screen and (max-width: 992px) {
+   flex-direction: column;
+   gap: 40px;
+   align-items: center;
+  }
  }
  &__info {
   width: 100%;
   max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  }
  &__info-title {
   color: var(--t-white);
   text-align: left;
   margin-bottom: 20px;
+  @media screen and (max-width: 992px) {
+   text-align: center;
+  }
  }
  &__info-subtitle {
   font-size: var(--sz-14);
   color: var(--t-white-7);
   margin-bottom: 140px;
+  @media screen and (max-width: 992px) {
+   text-align: center;
+   margin-bottom: 40px;
+  }
  }
  &__info-address {
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 992px) {
+   align-items: center;
+  }
  }
  &__info-phone {
   position: relative;
