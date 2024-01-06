@@ -625,7 +625,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__partners partners">
+    <section className="main__partners partners m-sect">
      <div className="container">
       <div className="partners__container">
        <h2 className="partners__title title">С нами работают</h2>

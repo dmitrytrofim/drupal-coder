@@ -58,7 +58,9 @@ function Footer() {
          Отправляя заявку, я даю согласие на обработку своих персональных данных
         </span>
        </label>
-       <button className="footer__form-submit">Оставить заявку!</button>
+       <button className="footer__form-submit btn m-fill">
+        Оставить заявку!
+       </button>
       </form>
      </div>
      <p className="footer__descr">

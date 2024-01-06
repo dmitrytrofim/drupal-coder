@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 function Partners() {
  let content = [];
- for (let i = 0; i < 3; i++) {
+ for (let i = 0; i < 4; i++) {
   content.push(
    <div key={uuidv4()} className="partners__card">
     <img
