@@ -3,6 +3,7 @@ import Footer from './components/footer';
 import Reviews from './components/reviews';
 import Partners from './components/partners';
 import Marquee from 'react-fast-marquee';
+import { Element } from 'react-scroll';
 
 function App() {
  return (
@@ -57,9 +58,10 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__services services m-sect">
+    <section id="test" className="main__services services m-sect">
      <div className="container">
       <div className="services__container">
+       <Element name="test"></Element>
        <h2 className="services__title title">
         13 лет совершенствуем компетенции в Drupal поддержке!
        </h2>

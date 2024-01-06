@@ -1,6 +1,17 @@
 import LangSwitcher from './langSwitcher';
+import { scroller } from 'react-scroll';
 
 function Header() {
+ const scrollTo = (e) => {
+  e.preventDefault();
+  console.log(e);
+  scroller.scrollTo('test', {
+   duration: 1500,
+   delay: 100,
+   smooth: true,
+   offset: -50,
+  });
+ };
  return (
   <header className="page__header header">
    <div className="container">
@@ -15,7 +26,7 @@ function Header() {
      <nav className="header__nav">
       <ul className="header__nav-list">
        <li className="header__nav-item">
-        <a href="#" className="header__nav-link">
+        <a href="#test" onClick={scrollTo} className="header__nav-link">
          Поддержка сайтов
         </a>
        </li>
