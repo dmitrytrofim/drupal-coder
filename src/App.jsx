@@ -55,6 +55,9 @@ function App() {
          <p className="greet__list-descr">200+ Проектов на поддержке</p>
         </li>
        </ul>
+       <a href="#" className="greet__btn btn">
+        Тарифы
+       </a>
       </div>
      </div>
     </section>

@@ -6,6 +6,9 @@
 .main {
  &__greet {
   margin-bottom: 100px;
+  @media screen and (max-width: 768px) {
+   margin-bottom: 80px;
+  }
  }
  &__services {
  }
@@ -28,6 +31,9 @@
 }
 .m-sect {
  margin-bottom: 160px;
+ @media screen and (max-width: 1200px) {
+  margin-bottom: 80px;
+ }
 }
 //@mark greet
 .greet {
@@ -45,10 +51,21 @@
   justify-content: space-between;
   color: var(--t-white);
   padding: 190px 0 150px;
+  @media screen and (max-width: 1200px) {
+   flex-direction: column;
+   gap: 50px;
+   padding: 120px 0 80px;
+  }
  }
  &__info {
   width: 100%;
   max-width: 500px;
+  @media screen and (max-width: 1200px) {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+  }
  }
  &__info-title {
   font-size: var(--sz-52);
@@ -61,17 +78,40 @@
   line-height: 1.55;
   color: var(--t-white-7);
   margin-bottom: 55px;
+  @media screen and (max-width: 1200px) {
+   margin-bottom: 30px;
+  }
+  @media screen and (max-width: 576px) {
+   & br {
+    display: none;
+   }
+  }
  }
  &__info-btn {
+  @media screen and (max-width: 1200px) {
+   display: none;
+  }
  }
  &__list {
   display: grid;
   grid-template-columns: repeat(3, 180px);
   gap: 80px 28px;
+  @media screen and (max-width: 768px) {
+   grid-template-columns: repeat(2, 180px);
+   gap: 40px 28px;
+  }
+  @media screen and (max-width: 576px) {
+   grid-template-columns: 1fr;
+   gap: 30px;
+  }
  }
  &__list-item {
   border-left: 3px solid var(--b-orange);
   padding-left: 10px;
+  @media screen and (max-width: 1200px) {
+   border-left: none;
+   padding-left: 0;
+  }
  }
  &__list-title {
   font-size: var(--sz-24);
@@ -93,6 +133,11 @@
      width: 60px;
      height: 60px;
      background: url('/assets/img/cup.png') center / contain no-repeat;
+     @media screen and (max-width: 768px) {
+      left: 40px;
+      width: 50px;
+      height: 50px;
+     }
     }
    }
   }
@@ -100,6 +145,12 @@
  &__list-descr {
   font-size: var(--sz-12);
   color: var(--t-white-7);
+ }
+ &__btn {
+  display: none;
+  @media screen and (max-width: 1200px) {
+   display: flex;
+  }
  }
 }
 //@mark services
@@ -116,11 +167,23 @@
   width: 100%;
   max-width: 493px;
   margin-bottom: 60px;
+  @media screen and (max-width: 576px) {
+   margin-bottom: 40px;
+  }
  }
  &__list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px 130px;
+  @media screen and (max-width: 1200px) {
+   gap: 50px;
+  }
+  @media screen and (max-width: 768px) {
+   grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 576px) {
+   gap: 30px;
+  }
  }
  &__item {
  }
@@ -150,6 +213,7 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 290px;
   gap: 6px;
   &::after {
    position: absolute;
@@ -158,6 +222,16 @@
    background-color: rgba(0, 0, 0, 0.05);
    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
    z-index: -1;
+  }
+  @media screen and (max-width: 1200px) {
+   grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 768px) {
+   grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 576px) {
+   grid-template-columns: 1fr;
+   grid-auto-rows: auto;
   }
  }
  &__item {
@@ -206,6 +280,10 @@
   justify-content: flex-end;
   color: var(--t-white);
   padding: 380px 0 170px;
+  @media screen and (max-width: 1200px) {
+   justify-content: center;
+   padding: 260px 0 100px;
+  }
  }
  &__info {
   width: 100%;
@@ -215,23 +293,39 @@
   color: var(--t-white);
   text-align: left;
   margin-bottom: 60px;
+  @media screen and (max-width: 1200px) {
+   text-align: center;
+  }
+  @media screen and (max-width: 576px) {
+   margin-bottom: 30px;
+  }
  }
  &__row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  @media screen and (max-width: 576px) {
+   grid-template-columns: 1fr;
+  }
  }
  &__item {
   padding: 7px 0 7px 20px;
   color: var(--t-white-7);
   line-height: 1.375;
   border-left: 3px solid var(--b-orange);
+  @media screen and (max-width: 576px) {
+   padding: 0;
+   border-left: none;
+  }
  }
  &__decor {
   height: 680px;
   position: absolute;
   left: 0;
   bottom: -160px;
+  @media screen and (max-width: 1200px) {
+   display: none;
+  }
  }
 }
 //@mark tariffs
