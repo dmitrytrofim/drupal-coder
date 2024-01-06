@@ -1,6 +1,7 @@
 import Header from './components/header';
 import Footer from './components/footer';
 import Reviews from './components/reviews';
+import Partners from './components/partners';
 
 function App() {
  return (
@@ -55,7 +56,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__services services">
+    <section className="main__services services m-sect">
      <div className="container">
       <div className="services__container">
        <h2 className="services__title title">
@@ -324,7 +325,7 @@ function App() {
       loading="lazy"
      />
     </section>
-    <section className="main__tariffs tariffs">
+    <section className="main__tariffs tariffs m-sect">
      <div className="container">
       <div className="tariffs__container">
        <h2 className="tariffs__title title">Тарифы</h2>
@@ -410,7 +411,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__cases cases">
+    <section className="main__cases cases m-sect">
      <div className="container">
       <div className="cases__container">
        <h2 className="cases__title title">Последние кейсы</h2>
@@ -615,7 +616,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__reviews reviews">
+    <section className="main__reviews reviews m-sect">
      <div className="container">
       <div className="reviews__container">
        <h2 className="reviews__title title">Отзывы</h2>
@@ -626,22 +627,13 @@ function App() {
     <section className="main__partners partners">
      <div className="container">
       <div className="partners__container">
-       <h2 className="partners__title">С нами работают</h2>
+       <h2 className="partners__title title">С нами работают</h2>
        <p className="partners__subtitle">
         Десятки компаний доверяют нам самое ценное, что у них есть в интернете –
         свои сайты. Мы делаем всё, чтобы наше сотрудничество было долгим.
        </p>
        <div className="partners__box">
-        <div className="partners__row">
-         <div className="partners__card">
-          <img
-           className="partners__card-img"
-           src="/assets/img/partner-1.webp"
-           alt=""
-           loading="lazy"
-          />
-         </div>
-        </div>
+        <Partners />
        </div>
       </div>
      </div>

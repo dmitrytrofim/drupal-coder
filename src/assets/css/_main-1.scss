@@ -8,7 +8,6 @@
   margin-bottom: 100px;
  }
  &__services {
-  margin-bottom: 160px;
  }
  &__support {
  }
@@ -16,10 +15,8 @@
   margin-top: -180px;
  }
  &__tariffs {
-  margin-bottom: 160px;
  }
  &__cases {
-  margin-bottom: 160px;
  }
  &__team {
   margin-bottom: 100px;
@@ -28,6 +25,9 @@
  }
  &__partners {
  }
+}
+.m-sect {
+ margin-bottom: 160px;
 }
 //@mark greet
 .greet {
@@ -569,12 +569,20 @@
   }
  }
 }
+//@mark partners
 .partners {
  &__container {
+  display: flex;
+  flex-direction: column;
  }
  &__title {
+  margin-bottom: 10px;
  }
  &__subtitle {
+  align-self: center;
+  width: 100%;
+  max-width: 740px;
+  text-align: center;
  }
  &__box {
  }
