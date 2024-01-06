@@ -13,30 +13,71 @@
  }
  &__container {
   color: var(--t-white);
+  padding: 120px 0 50px;
  }
  &__row {
+  display: flex;
+  justify-content: space-between;
  }
  &__info {
+  width: 100%;
+  max-width: 480px;
  }
  &__info-title {
+  color: var(--t-white);
+  text-align: left;
+  margin-bottom: 20px;
  }
  &__info-subtitle {
+  font-size: var(--sz-14);
+  color: var(--t-white-7);
+  margin-bottom: 140px;
  }
  &__info-address {
+  display: flex;
+  flex-direction: column;
  }
  &__info-phone {
  }
  &__info-mail {
  }
  &__form {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
  }
  &__form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
  }
  &__form-inp {
+  width: 100%;
+  font-size: var(--sz-14);
+  font-weight: 500;
+  color: var(--t-white);
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 25px;
+  &.m-area {
+   height: 130px;
+   resize: none;
+  }
+  &::placeholder {
+   color: var(--t-white);
+  }
  }
  &__form-check {
  }
  &__form-check-inp {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
  }
  &__form-check-text {
  }
@@ -46,8 +87,4 @@
  }
  &__descr-text {
  }
-}
-.container {
-}
-.m-area {
 }

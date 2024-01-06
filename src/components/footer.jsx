@@ -5,7 +5,7 @@ function Footer() {
     <div className="footer__container container">
      <div className="footer__row">
       <div className="footer__info">
-       <h2 className="footer__info-title">
+       <h2 className="footer__info-title title">
         Оставить заявку на поддержку сайта
        </h2>
        <p className="footer__info-subtitle">
