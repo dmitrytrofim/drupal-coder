@@ -7,28 +7,28 @@ function Partners() {
    <div key={uuidv4()} className="partners__card">
     <img
      className="partners__card-img"
-     src="/assets/img/partner-1.webp"
+     src="./assets/img/partner-1.webp"
      alt=""
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
     <img
      className="partners__card-img"
-     src="/assets/img/partner-2.webp"
+     src="./assets/img/partner-2.webp"
      alt=""
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
     <img
      className="partners__card-img"
-     src="/assets/img/partner-3.webp"
+     src="./assets/img/partner-3.webp"
      alt=""
     />
    </div>,
    <div key={uuidv4()} className="partners__card">
     <img
      className="partners__card-img"
-     src="/assets/img/partner-4.webp"
+     src="./assets/img/partner-4.webp"
      alt=""
     />
    </div>

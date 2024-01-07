@@ -4,9 +4,9 @@
 }
 .footer {
  & {
-  background: url('/assets/img/svg/d-footer.svg') bottom -200px right -80px /
-    400px no-repeat,
-   url('/assets/img/svg/d-footer.svg') top -20px center / 300px no-repeat,
+  background: url('./img/svg/d-footer.svg') bottom -200px right -80px / 400px
+    no-repeat,
+   url('./img/svg/d-footer.svg') top -20px center / 300px no-repeat,
    linear-gradient(
     261deg,
     rgba(255, 255, 255, 0.28) -114.85%,
@@ -14,7 +14,7 @@
    ),
    #040613;
   @media screen and (max-width: 768px) {
-   background: url('/assets/img/svg/d-footer.svg') top -20px center / 300px no-repeat,
+   background: url('./img/svg/d-footer.svg') top -20px center / 300px no-repeat,
     linear-gradient(
      261deg,
      rgba(255, 255, 255, 0.28) -114.85%,
@@ -83,7 +83,7 @@
    left: 0;
    width: 24px;
    height: 24px;
-   background: url('/assets/img/svg/sprite.svg#phone') center / cover no-repeat;
+   background: url('./img/svg/sprite.svg#phone') center / cover no-repeat;
   }
  }
  &__info-mail {
@@ -100,7 +100,7 @@
    left: 0;
    width: 24px;
    height: 24px;
-   background: url('/assets/img/svg/sprite.svg#mail') center / cover no-repeat;
+   background: url('./img/svg/sprite.svg#mail') center / cover no-repeat;
   }
  }
  &__form {
@@ -147,7 +147,7 @@
   border-radius: 5px;
   cursor: pointer;
   &:checked {
-   background: url('/assets/img/svg/check.svg') center / 16px no-repeat;
+   background: url('./img/svg/check.svg') center / 16px no-repeat;
   }
  }
  &__form-check-text {

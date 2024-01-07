@@ -41,8 +41,7 @@
     right: -14px;
     width: 12px;
     height: 12px;
-    background: url('/assets/img/svg/sprite.svg#arrow-down') center / cover
-     no-repeat;
+    background: url('./img/svg/sprite.svg#arrow-down') center / cover no-repeat;
    }
    &.j-show::after {
     transform: rotate(180deg);

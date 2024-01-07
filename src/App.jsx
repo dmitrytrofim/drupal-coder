@@ -61,7 +61,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section id="test" className="main__services services m-sect">
+    <section id="test" className="main__services services sect">
      <div className="container">
       <div className="services__container">
        <Element name="services"></Element>
@@ -77,7 +77,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-7.svg"
+           src="./assets/img/svg/services-7.svg"
            alt=""
            loading="lazy"
           />
@@ -90,7 +90,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-6.svg"
+           src="./assets/img/svg/services-6.svg"
            alt=""
            loading="lazy"
           />
@@ -103,7 +103,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-5.svg"
+           src="./assets/img/svg/services-5.svg"
            alt=""
            loading="lazy"
           />
@@ -116,7 +116,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-2.svg"
+           src="./assets/img/svg/services-2.svg"
            alt=""
            loading="lazy"
           />
@@ -129,7 +129,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-1.svg"
+           src="./assets/img/svg/services-1.svg"
            alt=""
            loading="lazy"
           />
@@ -142,7 +142,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-4.svg"
+           src="./assets/img/svg/services-4.svg"
            alt=""
            loading="lazy"
           />
@@ -155,7 +155,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-8.svg"
+           src="./assets/img/svg/services-8.svg"
            alt=""
            loading="lazy"
           />
@@ -168,7 +168,7 @@ function App() {
          <div className="services__item-visual i-wrap">
           <img
            className="services__item-img i-full"
-           src="/assets/img/svg/services-3.svg"
+           src="./assets/img/svg/services-3.svg"
            alt=""
            loading="lazy"
           />
@@ -198,7 +198,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-1.png"
+          src="./assets/img/support-1.png"
           alt=""
           loading="lazy"
          />
@@ -214,7 +214,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-2.png"
+          src="./assets/img/support-2.png"
           alt=""
           loading="lazy"
          />
@@ -230,7 +230,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-3.png"
+          src="./assets/img/support-3.png"
           alt=""
           loading="lazy"
          />
@@ -244,7 +244,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-4.png"
+          src="./assets/img/support-4.png"
           alt=""
           loading="lazy"
          />
@@ -258,7 +258,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-5.png"
+          src="./assets/img/support-5.png"
           alt=""
           loading="lazy"
          />
@@ -272,7 +272,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-6.png"
+          src="./assets/img/support-6.png"
           alt=""
           loading="lazy"
          />
@@ -285,7 +285,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-7.png"
+          src="./assets/img/support-7.png"
           alt=""
           loading="lazy"
          />
@@ -298,7 +298,7 @@ function App() {
          </p>
          <img
           className="support__item-decor"
-          src="/assets/img/support-8.png"
+          src="./assets/img/support-8.png"
           alt=""
           loading="lazy"
          />
@@ -326,12 +326,12 @@ function App() {
      </div>
      <img
       className="exp__decor"
-      src="/assets/img/svg/laptop.svg"
+      src="./assets/img/svg/laptop.svg"
       alt=""
       loading="lazy"
      />
     </section>
-    <section className="main__tariffs tariffs m-sect">
+    <section className="main__tariffs tariffs sect">
      <div className="container">
       <div className="tariffs__container">
        <Element name="tariffs"></Element>
@@ -418,7 +418,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__cases cases m-sect">
+    <section className="main__cases cases sect">
      <div className="container">
       <div className="cases__container">
        <Element name="cases"></Element>
@@ -427,7 +427,7 @@ function App() {
         <a href="#" className="cases__card m-sep">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-5.webp"
+          src="./assets/img/case-5.webp"
           alt=""
           loading="lazy"
          />
@@ -445,7 +445,7 @@ function App() {
         <a href="#" className="cases__card m-full m-1">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-7.webp"
+          src="./assets/img/case-7.webp"
           alt=""
           loading="lazy"
          />
@@ -459,7 +459,7 @@ function App() {
         <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-4.webp"
+          src="./assets/img/case-4.webp"
           alt=""
           loading="lazy"
          />
@@ -473,7 +473,7 @@ function App() {
         <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-3.webp"
+          src="./assets/img/case-3.webp"
           alt=""
           loading="lazy"
          />
@@ -487,7 +487,7 @@ function App() {
         <a href="#" className="cases__card m-sep">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-1.webp"
+          src="./assets/img/case-1.webp"
           alt=""
           loading="lazy"
          />
@@ -505,7 +505,7 @@ function App() {
         <a href="#" className="cases__card m-full m-2">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-6.webp"
+          src="./assets/img/case-6.webp"
           alt=""
           loading="lazy"
          />
@@ -519,7 +519,7 @@ function App() {
         <a href="#" className="cases__card m-full">
          <img
           className="cases__card-visual"
-          src="/assets/img/case-2.webp"
+          src="./assets/img/case-2.webp"
           alt=""
           loading="lazy"
          />
@@ -546,7 +546,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-1.webp"
+           src="./assets/img/team-1.webp"
            alt=""
            loading="lazy"
           />
@@ -560,7 +560,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-3.webp"
+           src="./assets/img/team-3.webp"
            alt=""
            loading="lazy"
           />
@@ -572,7 +572,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-2.webp"
+           src="./assets/img/team-2.webp"
            alt=""
            loading="lazy"
           />
@@ -586,7 +586,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-2.webp"
+           src="./assets/img/team-2.webp"
            alt=""
            loading="lazy"
           />
@@ -598,7 +598,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-1.webp"
+           src="./assets/img/team-1.webp"
            alt=""
            loading="lazy"
           />
@@ -612,7 +612,7 @@ function App() {
          <div className="team__item-visual i-wrap">
           <img
            className="team__item-img i-full"
-           src="/assets/img/team-3.webp"
+           src="./assets/img/team-3.webp"
            alt=""
            loading="lazy"
           />
@@ -624,7 +624,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__reviews reviews m-sect">
+    <section className="main__reviews reviews sect">
      <div className="container">
       <div className="reviews__container">
        <Element name="reviews"></Element>
@@ -633,7 +633,7 @@ function App() {
       </div>
      </div>
     </section>
-    <section className="main__partners partners m-sect">
+    <section className="main__partners partners sect">
      <div className="container">
       <div className="partners__container">
        <h2 className="partners__title title">С нами работают</h2>

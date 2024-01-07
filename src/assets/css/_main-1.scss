@@ -32,7 +32,7 @@
  &__partners {
  }
 }
-.m-sect {
+.sect {
  margin-bottom: 160px;
  @media screen and (max-width: 1200px) {
   margin-bottom: 80px;
@@ -41,8 +41,8 @@
 //@mark greet
 .greet {
  & {
-  background: url('/assets/img/svg/mask.svg') left center / contain no-repeat,
-   url('/assets/img/greet-bg.webp') center / cover no-repeat, var(--b-dark);
+  background: url('./img/svg/mask.svg') left center / contain no-repeat,
+   url('./img/greet-bg.webp') center / cover no-repeat, var(--b-dark);
   @media screen and (max-width: 768px) {
    background-size: cover;
   }
@@ -135,7 +135,7 @@
      left: 54px;
      width: 60px;
      height: 60px;
-     background: url('/assets/img/cup.png') center / contain no-repeat;
+     background: url('./img/cup.png') center / contain no-repeat;
      @media screen and (max-width: 768px) {
       left: 40px;
       width: 50px;
@@ -270,7 +270,7 @@
 .exp {
  & {
   position: relative;
-  background: url('/assets/img/svg/mask.svg') right center / contain no-repeat,
+  background: url('./img/svg/mask.svg') right center / contain no-repeat,
    linear-gradient(
     261deg,
     rgba(255, 255, 255, 0.55) -114.85%,
@@ -334,7 +334,7 @@
 //@mark tariffs
 .tariffs {
  & {
-  background: url('/assets/img/tariffs.webp') top right / contain no-repeat;
+  background: url('./img/tariffs.webp') top right / contain no-repeat;
  }
  &__container {
   display: flex;
@@ -624,7 +624,7 @@
 //@mark reviews
 .reviews {
  & {
-  background: url('/assets/img/svg/quote.svg') top left / 400px no-repeat;
+  background: url('./img/svg/quote.svg') top left / 400px no-repeat;
   @media screen and (max-width: 992px) {
    background-size: 200px;
   }
@@ -721,10 +721,10 @@
   width: 32px;
   height: 32px;
   &.m-prev {
-   background: url('/assets/img/svg/sprite.svg#prev') center / cover no-repeat;
+   background: url('./img/svg/sprite.svg#prev') center / cover no-repeat;
   }
   &.m-next {
-   background: url('/assets/img/svg/sprite.svg#next') center / cover no-repeat;
+   background: url('./img/svg/sprite.svg#next') center / cover no-repeat;
   }
  }
  &__nav-counter {

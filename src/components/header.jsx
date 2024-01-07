@@ -2,7 +2,8 @@ import LangSwitcher from './langSwitcher';
 import { scroller } from 'react-scroll';
 
 function Header() {
- const scrollTo = (elem) => {
+ const scrollTo = (elem, e) => {
+  e.preventDefault();
   scroller.scrollTo(elem, {
    duration: 1500,
    delay: 100,
@@ -26,7 +27,7 @@ function Header() {
        <li className="header__nav-item">
         <a
          href="#"
-         onClick={() => scrollTo('services')}
+         onClick={scrollTo.bind(this, 'services')}
          className="header__nav-link"
         >
          Поддержка сайтов
@@ -35,7 +36,7 @@ function Header() {
        <li className="header__nav-item">
         <a
          href="#"
-         onClick={() => scrollTo('tariffs')}
+         onClick={scrollTo.bind(this, 'tariffs')}
          className="header__nav-link"
         >
          Тарифы
@@ -44,7 +45,7 @@ function Header() {
        <li className="header__nav-item">
         <a
          href="#"
-         onClick={() => scrollTo('cases')}
+         onClick={scrollTo.bind(this, 'cases')}
          className="header__nav-link"
         >
          Наши работы
@@ -53,7 +54,7 @@ function Header() {
        <li className="header__nav-item">
         <a
          href="#"
-         onClick={() => scrollTo('reviews')}
+         onClick={scrollTo.bind(this, 'reviews')}
          className="header__nav-link"
         >
          Отзывы
@@ -62,7 +63,7 @@ function Header() {
        <li className="header__nav-item">
         <a
          href="#"
-         onClick={() => scrollTo('contacts')}
+         onClick={scrollTo.bind(this, 'contacts')}
          className="header__nav-link"
         >
          Контакты

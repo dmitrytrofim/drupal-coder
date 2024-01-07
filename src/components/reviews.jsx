@@ -3,17 +3,17 @@ import { useReducer } from 'react';
 const initialReview = { count: 0 };
 const reviews = [
  {
-  img: '/assets/img/winamp.webp',
+  img: './assets/img/winamp.webp',
   text: 'Все отлично',
   descr: 'Нуреев Александр, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.webp',
+  img: './assets/img/winamp.webp',
   text: 'Команда Drupal Coder вызвала только положительные впечатления!',
   descr: 'Полина, менеджер проекта Winamp Russian Community',
  },
  {
-  img: '/assets/img/winamp.webp',
+  img: './assets/img/winamp.webp',
   text: 'Команда 3 рада плодотворному сотрудничеству!',
   descr: 'Вадим, менеджер проекта Winamp Russian Community',
  },
